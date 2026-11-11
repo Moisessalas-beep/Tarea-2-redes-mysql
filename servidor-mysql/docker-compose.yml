@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  mysql-server:
+    image: mysql/mysql-server:latest
+    container_name: mysql_Tarea2
+    environment:
+      MYSQL_ROOT_PASSWORD: contra123
+      MYSQL_DATABASE: db_redes
+      MYSQL_USER: alumno
+      MYSQL_PASSWORD: contra123
+    ports:
+      - "3306:3306"
