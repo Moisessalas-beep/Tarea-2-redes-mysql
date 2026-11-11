@@ -1,0 +1,21 @@
+TAREA 2 MYSQL - INFORME LATEX / OVERLEAF
+
+Archivo principal: main.tex
+Compilador: pdfLaTeX (Overleaf > Menu > Compiler > pdfLaTeX).
+
+1. Sube a Overleaf este ZIP como un proyecto nuevo o descomprime la carpeta y sube todos los archivos.
+2. Completa los datos de la portada.
+3. SECCIONES YA REDACTADAS (aportación del cliente):
+   - 1.1 Descripción del protocolo
+   - 1.3 Tráfico esperado
+   - 2.3 Suposiciones sobre modificaciones on-the-fly
+4. SECCIONES PENDIENTES DEL COMPAÑERO:
+   - 1.2 Objetivo principal
+   - 2.1 Instalación y configuración
+   - 2.2 Tráfico observado
+5. COMPLETAR EN CONJUNTO: conclusiones finales con mediciones reales.
+6. Las evidencias del cliente están incluidas en los anexos. Faltan las capturas verificadas de Wireshark del servidor.
+7. El cliente empleó sslMode=REQUIRED. No decir que las consultas y contraseñas se observaron en texto plano sin confirmar primero la sesión/capturas.
+8. No incluir contraseñas reales ni claves secretas en el repositorio Git EIT.
+
+Nota: El formato sigue el esquema del documento de LaTeX proporcionado y el material UDP, pero simplifica los paquetes innecesarios para permitir compilación sin shell-escape.
